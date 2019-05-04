@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Web Dev 2 Final Project</title>
+
+		 <link href="css/mycss.css" rel="stylesheet" type="text/css" />
+        
+
+		<script src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/jquery-ui.js"></script>
+        <script type="text/javascript" src="javascript/main.js"></script>
+    </head>
+    <body>
+	<div id="note_adder">
+            <form>
+                <input type="text" id="new_note_text" placeholder="Note text here!" 
+                       style="width:90%"/>
+                <br/>
+                <input type="button" value="Rmon's note!" class="note_controls" 
+                       onclick="create_note($('#new_note_text').val());">
+                <input type="button" value="Save notes!" class="note_controls"
+                       onclick="save_notes();">
+            </form>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

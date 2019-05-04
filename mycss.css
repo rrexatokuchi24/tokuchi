@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: #9ACD32;
+}
+
+.note 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100px;
+    width: 150px;
+
+    background:blue;
+
+    font-family:harrington;
+    font-size: 180%;
+    color: black;
+
+    padding: 5px;
+
+   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.note_controls {
+    font-size: .7em;
+    margin-top: 10px;
+}
+
+#note_adder {
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+
+    background-color:green;
+    border: 1px solid black;
+    opacity: .80;
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    height: 65px;
+    width:  200px;
+
+    z-index: 1000;
+}
